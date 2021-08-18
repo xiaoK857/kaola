@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+#navbar {
+	height: 31px;
+	background-color: #000000;
+}
+
+.main {
+	width: 1090px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.main a,
+.main span {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #999999;
+	font-size: 12px;
+}
+
+.navbar-left a:hover,
+.nav-r-1:hover,
+.nav-r-2:hover {
+	color: #FFFFFF;
+}
+
+.navbar-right a:nth-last-of-type(-n+6):hover {
+	color: rgb(255, 57, 75);
+	background-color: #fff;
+}
+
+.navbar-right a:nth-last-of-type(-n+6):hover>i {
+	transform: rotate(180deg);
+	border-top-color: rgb(255, 57, 75);
+}
+
+.nav-r-8:hover {
+	background-color: #000000 !important;
+	color: #ffffff !important;
+}
+
+.navbar-left {
+	float: left;
+}
+
+.navbar-right {
+	float: right;
+}
+
+
+.navbar-left a {
+	margin-left: 16px;
+	margin-right: 8px;
+}
+
+.navbar-left span {
+	margin-left: -10px;
+}
+
+.nav-r-5,
+.nav-r-6,
+.nav-r-7,
+.nav-r-3,
+.nav-r-4 {
+	padding: 0 14px;
+}
+
+.nav-r-1,
+.nav-r-2,
+.nav-r-8 {
+	padding: 0 14px 0 8px;
+}
+
+
+.triangle {
+	position: relative;
+	top: 2px;
+
+	display: inline-block;
+	border-width: 4px;
+	border-style: solid;
+	border-top-color: #999;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	/* border-top: 20px solid #999;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid transparent; */
+
+	transition: all 100ms linear;
+	transform-origin: center 2px;
+}
+
+a:nth-child(2) {
+	margin-right: 10px;
+}
+
+.app {
+	position: relative;
+}
+
+.navbar-left>.app:hover>.code {
+	display: block;
+}
+
+.code {
+	display: none;
+	position: absolute;
+
+	width: 118px;
+	border: 1px solid #ededee;
+	top: 40px;
+	text-align: center;
+	height: fit-content;
+
+	transform: translate(-50%);
+	left: 50%;
+}
+
+.code img {
+	width: 116px;
+	height: 116px;
+	vertical-align: middle;
+	/* margin-top: -20px; */
+}
+
+.code span {
+	display: block;
+	padding-top: 10px;
+	margin: -18px auto 0;
+}
+
+.code .arrow {
+	position: absolute;
+	top: -6px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+
+	border-top: 1px solid #EDEDEE;
+	border-left: 1px solid #EDEDEE;
+	background-color: #fff;
+}

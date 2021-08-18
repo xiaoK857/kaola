@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+#logo {
+	width: 1090px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.logo-left {
+	float: left;
+	margin-top: 20px;
+	width: 330px;
+}
+
+.logo-left img {
+	width: 220px;
+	height: 65px;
+}
+
+.search{
+	float: left;
+	margin-top: 30px;
+	
+	border: 2px solid #ff2337;
+	border-radius: 40px;
+	padding: 6px 39px 6px 30px;
+	
+	position: relative;
+}
+
+.icon-left{
+	position: absolute;
+	background: url(../assets/img/search.png) center center;
+	width: 20px;
+	height: 20px;
+	left: 8px;
+	top: 8px;
+	background-size: 20px 20px;
+	
+}
+
+.icon-right{
+	width: 66px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #FF2337;
+	border-radius: 40px;
+	border: 1px solid #FF2337;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	margin: -1px -1px 0 0;
+	
+	text-align: center;
+	color: #EDEDEE;
+	font-size: 14px;
+}
+
+.search-input{
+	display: inline-block;
+	width: 410px;
+	height: 24px;
+	border: 0;
+	background-color: rgb(240, 240, 240);
+}
+
+.shop-cart{
+	float: right;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 35px;
+	margin-right: 100px;
+	border-radius: 40px;	
+	border: 2px solid #FF2337;
+	text-align: center;
+	font-size: 14px;
+}
+
+#logo .shop-cart img{
+	position: relative;
+	top: 4px;
+	left: -6px;
+}

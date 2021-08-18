@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+#good-list {
+	width: 1090px;
+	height: 770px;
+	margin: 10px auto 40px;
+	position: relative;
+}
+
+.clear-fix::after {
+	content: "";
+	clear: both;
+	display: block;
+
+	/* 用于兼容IE6和IE7 */
+	height: 0;
+	visibility: hidden;
+}
+
+#good-list .goods-list-left {
+	float: left;
+	width: 330px;
+	height: 542px;
+	position: relative;
+}
+
+#good-list .goods-list-left img {
+	vertical-align: middle;
+}
+
+#good-list .goods-list-center .list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	width: 540px;
+	height: 542px;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#good-list .goods-list-center li {
+	width: 270px;
+	height: 270px;
+	border: 1px solid #E9E9E9;
+	flex: 1;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+#good-list .goods-list-center .list h3 {
+	font-size: 24px;
+	color: #333333;
+	cursor: pointer;
+	font-family: Helvetica Neue;
+	font-weight: 500;
+}
+
+#good-list .goods-list-center .list p {
+	font-size: 14px;
+	color: #666666;
+}
+
+#good-list .goods-list-right {
+	float: right;
+	width: 220px;
+	height: 542px;
+	background-color: #FFFFFF;
+}
+
+#good-list .goods-list-right ul {
+	padding: 0;
+	margin: -2px 0 0;
+	list-style: none;
+}
+
+#good-list .goods-list-right h3 {
+	height: 58px;
+	line-height: 58px;
+	border: 1px solid #e9e9e9;
+	padding: 0 0 0 10px;
+	margin: 0;
+	color: #333333;
+	font-weight: 700;
+	border-left-width: 0;
+	border-bottom-width: 0;
+}
+
+#good-list .goods-list-right li {
+	position: relative;
+	height: 94px;
+	border-top: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+	padding: 25px 14px 0 0;
+}
+
+#good-list .goods-list-right .last-item {
+	border-bottom: 1px solid #e9e9e9;
+	height: 100px;
+}
+
+#good-list .goods-list-right img {
+	float: left;
+	vertical-align: middle;
+}
+
+#good-list .goods-list-right .title {
+	position: relative;
+	font-size: 2px;
+	color: #333333;
+	left: 8px;
+}
+
+#good-list .goods-list-right .n-price {
+	color: #ff1e32;
+	font-size: 20px;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 6px;
+}
+
+#good-list .goods-list-right .o-price {
+	color: #999;
+	font-size: 14px;
+	text-decoration: line-through;
+}
+
+#good-list .brand {
+	width: 1090px;
+	height: 220px;
+	background-color: #FFFFFF;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#good-list .brand .top {
+	width: 100%;
+	border: 1px solid #EAEAEA;
+	color: #000000;
+	font-size: 16px;
+	font-weight: 700;
+	text-indent: 20px;
+	line-height: 48px;
+	height: 48px;
+	margin-left: -2px;
+}
+
+#good-list .brand .bottom ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#good-list .brand .bottom li {
+	position: relative;
+
+	width: 219px;
+	height: 167px;
+	border-right: 1px solid #EAEAEA;
+	border-bottom: 1px solid #EAEAEA;
+	padding-bottom: 2px;
+}
+
+#good-list .brand .bottom img {
+	display: block;
+	margin: 26px auto 0;
+	width: 120px;
+	height: 120px;
+	vertical-align: middle;
+}
+
+#good-list .brand .bottom i {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	background-image: url(../assets/img/brand.png);
+	background-size: 20px 20px;
+	right: 10px;
+	top: 10px;
+
+	display: none;
+}
+
+#good-list .brand .bottom li:hover>i {
+	display: block;
+}
+
+#good-list .goods-list-left .desc {
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+
+}
+
+#good-list .goods-list-left .desc ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#good-list .goods-list-left .desc li {
+	cursor: pointer;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	margin: 4px;
+	border-radius: 40px;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+	border: 1px solid #eee;
+	background: #fff;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, .1);
+}
+
+#good-list .goods-list-left .desc li:hover>span{
+	color: #FF2337;
+}

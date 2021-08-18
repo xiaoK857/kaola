@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+#fixed .box a {
+	text-decoration: none;
+	color: #333;
+}
+
+#fixed .box {
+	z-index: 10;
+	position: fixed;
+	top: 66px;
+	right: 140px;
+	border: 1px solid #EAEAEA;
+	background-color: #FFFFFF;
+}
+
+#fixed .box a {
+	display: block;
+	border-bottom: 1px solid #EAEAEA;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+	margin-left: 8px;
+}
+
+#fixed .box .top {
+	border-bottom: none;
+}
+
+#fixed .box i {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+#fixed .box i img {
+	width: 20px;
+	height: 20px;
+}
+
+#fixed .box span {
+	font-size: 10px;
+	margin-left: 4px;
+}

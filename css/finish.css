@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+.color {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.finish {
+	width: 1090px;
+	height: 180px;
+	margin: 0 auto;
+	border-bottom: 1px solid #FF2337;
+}
+
+.finish .finish-txt {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+.finish .finish-txt li {
+	position: relative;
+	width: 240px;
+	height: 60px;
+	margin-top: 50px;
+}
+
+.finish .finish-txt h3 {
+	position: absolute;
+	left: 60px;
+	top: -10px;
+}
+
+.finish .finish-txt span {
+	position: absolute;
+	bottom: 0;
+	left: 60px;
+	font-size: 14px;
+}
+
+.finish .finish-txt i {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	border: 2px solid #d6d6d6;
+	position: absolute;
+	color: #333;
+	left: 4px;
+	top: 5px;
+}
+
+.finish .finish-txt i span {
+	position: relative;
+	left: 10px;
+	top: 4px;
+	font-size: 28px;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.teach {
+	width: 1090px;
+	height: 240px;
+	margin: 40px auto 0;
+}
+
+.teach .teach-left {
+	width: 220px;
+	position: relative;
+}
+
+.teach .teach-left .img1 {
+	width: 220px;
+	height: 65px;
+}
+
+.teach .teach-left .img2 {
+	margin: 30px 0 0 80px;
+}
+
+.teach .teach-left .img3 {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 100px;
+	left: 140px;
+}
+
+.teach .teach-left span {
+	position: absolute;
+	top: 108px;
+	font-size: 14px;
+}
+
+.teach .teach-center {
+	height: 180px;
+	display: flex;
+	justify-content: space-between;
+
+	width: 600px;
+	margin-top: -138px;
+	margin-left: 280px;
+}
+
+.teach .teach-center div {
+	width: 80px;
+	height: 180px;
+}
+
+.teach .teach-center ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+.teach .teach-center li {
+	padding: 10px 0 0;
+}
+
+.teach .teach-center h3 {
+	display: inline-block;
+	margin-top: 0;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.teach .teach-right img{
+	width: 108px;
+	height: 108px;
+	position: relative;
+	left: 960px;
+	top: -170px;
+}
+
+.record {
+	width: 100%;
+	height: 200px;
+	background-color: #333333;
+}
+
+.record .record-center {
+	width: 1090px;
+	height: 160px;
+	margin: 10px auto 0;
+	text-align: center;
+}
+
+.record .record-center span{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 20px;
+	color: #c2c2c2;
+	font-size: 13px;
+}
+
+.record .record-center img:nth-of-type(3){
+	margin-top: 20px;
+	width: 30px;
+	height: 30px;
+}
+
+.record .record-center img:nth-of-type(2) {
+	width: 80px;
+	height: 30px;
+}
